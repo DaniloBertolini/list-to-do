@@ -14,8 +14,8 @@ function Details() {
       <p>{ startDate }</p>
       <p>{ finalDate ? finalDate : 'Sem data final' }</p>
       <p>{ description ? description : 'Sem descrição' }</p>
-      <button onClick={ () => navigate('/')}>Voltar</button>
-      <button onClick={ () => navigate('/details/edit ')}>Editar</button>
+      <button onClick={ () => navigate('/list-to-do')}>Voltar</button>
+      <button onClick={ () => navigate('/list-to-do/details/edit')}>Editar</button>
     </div>
   )
 }

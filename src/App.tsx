@@ -6,9 +6,9 @@ import Edit from "./pages/Edit"
 function App() {
   return (
     <Routes>
-      <Route path="/" element={ <Lista />} />
-      <Route path="/details" element={ <Details />} />
-      <Route path="/details/edit" element={ <Edit />} />
+      <Route path="/list-to-do" element={ <Lista />} />
+      <Route path="/list-to-do/details" element={ <Details />} />
+      <Route path="/list-to-do/details/edit" element={ <Edit />} />
     </Routes>
   )
 }

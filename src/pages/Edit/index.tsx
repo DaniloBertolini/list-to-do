@@ -33,7 +33,7 @@ function Edit() {
     dispatch(detailTaskAction(task))
     dispatch(editTaskAction(task))
 
-    navigate('/details')
+    navigate('/list-to-do/details')
   }
 
   return (

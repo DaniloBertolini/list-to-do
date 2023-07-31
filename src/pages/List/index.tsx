@@ -38,7 +38,7 @@ function Lista() {
     if (rootStateDetails.id !== taskLoop.id) {
       dispatch(detailTaskAction(taskLoop))
     }
-    navigate('/details')
+    navigate('/list-to-do/details')
   }
 
   return (
